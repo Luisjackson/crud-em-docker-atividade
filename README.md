@@ -1,4 +1,6 @@
-Atividade Prática Residencia em Software - Aplicação Web Full Stack com Docker
+  Atividade Prática Residencia em Software - Aplicação Web Full Stack com Docker
+
+
 Este projeto consiste na configuração e deploy de uma infraestrutura completa para uma aplicação web full-stack utilizando Docker.
 A aplicação inclui um backend desenvolvido em Flask (Python), um banco de dados MySQL para persistência de dados, e um frontend servido pelo Nginx.
 
