@@ -4,7 +4,8 @@ services:
   db:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: senha123
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_root_password
+      MYSQL_PASSWORD_FILE: /run/secrets/mysql_password
       MYSQL_DATABASE: db_name
       MYSQL_DATABASE: db_name
     volumes:
